@@ -1,0 +1,11 @@
+syntax = "proto2";
+package test.second;
+import "messages.proto";
+
+message AddressBook {
+    repeated test.Person people = 1;
+}
+
+message PhoneBook {
+    repeated test.PhoneNumber number = 1;
+}
