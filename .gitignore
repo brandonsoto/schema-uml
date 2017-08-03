@@ -4,3 +4,5 @@ protobuf2uml/schemas_proto/*
 protobuf2uml/descriptor_pb2.py
 protobuf2uml/uml.svg
 protobuf2uml/uml.dot
+proto_out/
+*.pyc
